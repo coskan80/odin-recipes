@@ -19,20 +19,20 @@ a {
   text-decoration: none;
   color: #e8ac65;
 }
+
 a:hover {
-    color: #ff9e00;
-    
+  color: #ff9e00;
 }
 
 .link {
   text-align: center;
   font-size: 22px;
 }
-
-body {
-  font-family: monospace;
-  background-color: #8d99ae;
+footer {
+  margin-top: 1.5em;
 }
+
+/* Bellow start the sub-pages styles */
 p {
   width: 50%;
 }
