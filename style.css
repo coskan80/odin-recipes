@@ -39,7 +39,19 @@ p {
 ol {
   width: 50%;
 }
+
+ol li {
+  margin: 1em 0;
+}
+
 h1.subpage-header {
   font-size: 42px;
   color: #2b2d42;
+}
+
+.ingredients {
+  width: 50%;
+  border-left-color: #2b2d42;
+  border-width: 3px;
+  border-left-style: solid;
 }
