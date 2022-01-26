@@ -1,6 +1,7 @@
 body {
   font-family: monospace;
   background-color: #8d99ae;
+  margin-top: 0;
 }
 
 h1.index-header {
@@ -51,7 +52,7 @@ header {
   border-bottom-width: 1px;
   border-bottom-color: white;
   border-bottom-style: solid;
-  padding: 0 5px 5px 5px;
+  padding: 0 1rem 2rem 1rem;
   background-color: #8d99ae;
   position: -webkit-sticky;
   position: sticky;
@@ -62,16 +63,13 @@ header {
 h1.subpage-header {
   font-size: 42px;
   color: #2b2d42;
-  /* width: auto;
-  height: 4rem;
-  border-bottom-width: 1px;
-  border-bottom-color: white;
-  border-bottom-style: solid;
-  padding: 0 5px 5px 5px;
-  background-color: #8d99ae;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0; */
+  display: inline-block;
+}
+
+#home {
+  display: inline-block;
+  height: 3em;
+  width: auto;
 }
 p {
   width: 50%;
