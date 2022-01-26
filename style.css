@@ -29,7 +29,14 @@ a:hover {
   font-size: 22px;
 }
 footer {
+  background-color: #8d99ae;
+  width: auto;
+  height: 5rem;
   margin-top: 1.5em;
+  border-top-width: 1px;
+  border-top-color: white;
+  border-top-style: solid;
+  padding: 10px 5px 5px 10px;
 }
 
 /* Bellow start the sub-pages styles */
@@ -47,6 +54,16 @@ ol li {
 h1.subpage-header {
   font-size: 42px;
   color: #2b2d42;
+  width: auto;
+  height: 4rem;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  padding: 0 5px 5px 5px;
+  background-color: #8d99ae;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .ingredients {
@@ -54,4 +71,5 @@ h1.subpage-header {
   border-left-color: #2b2d42;
   border-width: 3px;
   border-left-style: solid;
+  background-color: rgba(255, 255, 255, 0.2);
 }
